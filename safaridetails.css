@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Carrois+Gothic+SC');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(251, 253, 255);
+}
+.navigation{
+    width: 100%;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: white;
+}
+.logo{
+    flex: 1;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo h4{
+    font-size: 25px;
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+
+}
+.ultags{
+    flex: 3;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ultags ul{
+    display: flex;
+    flex-direction: row;
+    left: 40%;
+    position: relative;
+}
+.ultags ul li {
+    padding-left: 20px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+}
+.safari-heading{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.safari-heading img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    object-fit: cover;
+    z-index: -40;
+    width: 100%;
+    height: 100%;
+}
+.safari-heading .safari-heading-overlay{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.safari-heading-overlay h3{
+    color: white;
+    font-size: 40px;
+    font-family: 'Kaushan Script', cursive;
+}
+.home-container{
+    margin: 0 auto;
+    width: 90%;
+}
+.safari-details-tabs{
+    margin-top: 100px;
+    position: relative;
+}
+.safari-form{
+    height: 500px;
+    border: 1px solid;
+    border-color: #bdbdbd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 1px;
+    background-color: white;
+}
+.safari-form-price-tab{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.safari-form-price-tab h6{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    color: red;
+}
+.input-field{
+    border: 1px solid;
+    border-color: #bdbdbd;
+    height: 50px;
+    background-color: rgb(251, 253, 255);;
+  }
+.input-field input[type=email],input[type=password],input[type=text]{
+    border: none !important;
+    border-bottom: 0px;
+    
+  }
+  .input-field input[type=email]::placeholder,input[type=password]::placeholder,input[type=text]::placeholder{
+  color: black;
+  }
+  .input-field input[type=email]:focus,input[type=password]:focus,input[type=text]:focus{
+    border-bottom: none!important;
+  box-shadow: none!important;
+  }
+
+  .book-button{
+      width: 100%;
+      height: 50px;
+  }
+  #gallery-tab{
+    column-count: 2;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    position: relative;
+  }
+  #gallery-tab img{
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      margin-bottom: 20px;
+  }
+  .tour-instructions i{
+      color: #e65100;
+  }
+  .tour-details-photo{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+.tour-details-words h4{
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.tour-details-words p{
+    margin-bottom: 50px;
+}
+.tour-details-words img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.tour-map{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-bottom: 70px;
+}
+.footer-container{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container .social-icons{
+    display: flex;
+    flex-direction: row;
+}
+.social-icons i{
+    padding-left: 20px;
+}
+.footer-container ul{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.footer-container ul li{
+    padding-left: 50px;
+    font-size: 20px;
+}
+.footer-area{
+    width: 100%;
+    position: relative;
+}

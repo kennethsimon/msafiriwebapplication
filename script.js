@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $('.tabs').tabs();
     $('.owl-carousel').owlCarousel({
         items:3,
         margin: 25,
