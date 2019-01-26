@@ -4,6 +4,7 @@ body{
     padding: 0px;
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
+    background-color: #eeeeee;
 }
 .header{
     width: 100%;
@@ -128,7 +129,7 @@ body{
     width: 100%;
 }
 .safari-card-words h4{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 800;
 }
 @media(max-width: 576px){
